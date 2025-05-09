@@ -110,7 +110,7 @@ export async function cachedRequest(url, duration = 5, ua = "homepage") {
 
 export async function httpProxy(url, params = {}) {
   const constructedUrl = new URL(url);
-  const proxyUrl = process.env.HOMEPAGE_HTTP_PROXY_URL; // e.g., http://proxy.local:3128
+  const proxyUrl = process.env.HOMEPAGE_HTTP_PROX; // e.g. http://proxy.local:3128
   const disableIpv6 = process.env.HOMEPAGE_PROXY_DISABLE_IPV6 === "true";
   const agentOptions = disableIpv6 ? { family: 4, autoSelectFamily: false } : {};
 
