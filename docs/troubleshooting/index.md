@@ -84,7 +84,7 @@ services:
 
 ## Running homepage behind a proxy
 
-If you are running homepage behind e.g. squid proxy, you can set the environment variable `HOMEPAGE_HTTP_PROXY_URL` to the URL of your proxy. This will allow homepage to use the proxy for all outgoing requests.
+If you are running homepage behind e.g. squid proxy, you can set the environment variable `HOMEPAGE_HTTP_PROXY` to the URL of your proxy. This will allow homepage to use the proxy for all outgoing requests.
 
 ```yaml
 services:
