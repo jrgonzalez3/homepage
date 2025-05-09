@@ -117,6 +117,7 @@ export async function httpProxy(url, params = {}) {
   let agent;
   if (proxyUrl) {
     agent = constructedUrl.protocol === "https:" ? new HttpsProxyAgent(proxyUrl) : new HttpProxyAgent(proxyUrl);
+    logger.debug("Using proxy for request to %s: %s", constructedUrl.href, proxyUrl);
   } else {
     agent =
       constructedUrl.protocol === "https:"
