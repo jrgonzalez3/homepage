@@ -110,21 +110,23 @@ export async function cachedRequest(url, duration = 5, ua = "homepage") {
 
 export async function httpProxy(url, params = {}) {
   const constructedUrl = new URL(url);
+  const proxyUrl = process.env.HOMEPAGE_HTTP_PROXY_URL; // e.g., http://proxy.local:3128
   const disableIpv6 = process.env.HOMEPAGE_PROXY_DISABLE_IPV6 === "true";
   const agentOptions = disableIpv6 ? { family: 4, autoSelectFamily: false } : {};
 
-  let request = null;
-  if (constructedUrl.protocol === "https:") {
-    request = httpsRequest(constructedUrl, {
-      agent: new https.Agent({ ...agentOptions, rejectUnauthorized: false }),
-      ...params,
-    });
+  let agent;
+  if (proxyUrl) {
+    agent = constructedUrl.protocol === "https:" ? new HttpsProxyAgent(proxyUrl) : new HttpProxyAgent(proxyUrl);
   } else {
-    request = httpRequest(constructedUrl, {
-      agent: new http.Agent(agentOptions),
-      ...params,
-    });
+    agent =
+      constructedUrl.protocol === "https:"
+        ? new https.Agent({ ...agentOptions, rejectUnauthorized: false })
+        : new http.Agent(agentOptions);
   }
+  const request = httpsRequest(constructedUrl, {
+    agent,
+    ...params,
+  });
 
   try {
     const [status, contentType, data, responseHeaders] = await request;
