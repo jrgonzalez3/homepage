@@ -123,10 +123,10 @@ export async function httpProxy(url, params = {}) {
         ? new https.Agent({ ...agentOptions, rejectUnauthorized: false })
         : new http.Agent(agentOptions);
   }
-  const request = httpsRequest(constructedUrl, {
-    agent,
-    ...params,
-  });
+  const request =
+    constructedUrl.protocol === "https:"
+      ? httpsRequest(constructedUrl, { agent, ...params })
+      : httpRequest(constructedUrl, { agent, ...params });
 
   try {
     const [status, contentType, data, responseHeaders] = await request;
