@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - core-js
+  - cpu-features
+  - protobufjs
+  - sharp
+  - ssh2
