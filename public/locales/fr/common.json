@@ -85,16 +85,16 @@
     "ping": {
         "error": "Erreur",
         "ping": "Latence",
-        "down": "Bas",
-        "up": "Haut",
+        "down": "Down",
+        "up": "Up",
         "not_available": "Non disponible"
     },
     "siteMonitor": {
         "http_status": "Statut HTTP",
         "error": "Erreur",
         "response": "Réponse",
-        "down": "Bas",
-        "up": "Haut",
+        "down": "Down",
+        "up": "Up",
         "not_available": "Non disponible"
     },
     "emby": {
@@ -142,15 +142,15 @@
         "connectionStatusDisconnected": "Déconnecté",
         "connectionStatusConnected": "Connecté",
         "uptime": "Démarré depuis",
-        "maxDown": "Max. Bas",
-        "maxUp": "Max. Haut",
-        "down": "Bas",
-        "up": "Haut",
+        "maxDown": "Max. Down",
+        "maxUp": "Max. Up",
+        "down": "Down",
+        "up": "Up",
         "received": "Reçu",
         "sent": "Envoyé",
         "externalIPAddress": "IP externe",
-        "externalIPv6Address": "Ext. IPv6",
-        "externalIPv6Prefix": "Ext. IPv6-Prefix"
+        "externalIPv6Address": "IPv6 externe",
+        "externalIPv6Prefix": "Préfixe IPv6 externe"
     },
     "caddy": {
         "upstreams": "En amont",
@@ -178,7 +178,7 @@
         "connectedAp": "AP connectés",
         "activeUser": "Périphériques actifs",
         "alerts": "Alertes",
-        "connectedGateways": "Connected gateways",
+        "connectedGateways": "Passerelles connectées",
         "connectedSwitches": "Switchs connectés"
     },
     "nzbget": {
@@ -523,15 +523,15 @@
         "up_to_date": "À jour",
         "child_bridges": "Child Bridges",
         "child_bridges_status": "{{ok}}/{{total}}",
-        "up": "Haut",
+        "up": "Up",
         "pending": "En attente",
-        "down": "Bas"
+        "down": "Down"
     },
     "healthchecks": {
         "new": "Nouveau",
-        "up": "Haut",
+        "up": "Up",
         "grace": "En Période de Grâce",
-        "down": "Bas",
+        "down": "Down",
         "paused": "En Pause",
         "status": "Statut",
         "last_ping": "Dernier Ping",
@@ -646,8 +646,8 @@
         "load": "Charge moy.",
         "memory": "Util. Mém.",
         "wanStatus": "Statut WAN",
-        "up": "Haut",
-        "down": "Bas",
+        "up": "Up",
+        "down": "Down",
         "temp": "Température",
         "disk": "Util. Disque",
         "wanIP": "IP WAN"
@@ -832,8 +832,8 @@
     "openwrt": {
         "uptime": "Démarré depuis",
         "cpuLoad": "Charge moyenne CPU (5 min)",
-        "up": "Haut",
-        "down": "Bas",
+        "up": "Up",
+        "down": "Down",
         "bytesTx": "Transmis",
         "bytesRx": "Reçu"
     },
@@ -846,9 +846,9 @@
         "sitesDown": "Hors ligne",
         "paused": "En Pause",
         "notyetchecked": "Non vérifié",
-        "up": "Haut",
+        "up": "Up",
         "seemsdown": "Semble hors ligne",
-        "down": "Bas",
+        "down": "Down",
         "unknown": "Inconnu"
     },
     "calendar": {
@@ -885,7 +885,8 @@
     "gitea": {
         "notifications": "Notifications",
         "issues": "Anomalies",
-        "pulls": "Demandes de tirage"
+        "pulls": "Demandes de tirage",
+        "repositories": "Dépôts"
     },
     "stash": {
         "scenes": "Scènes",
@@ -987,8 +988,8 @@
     "beszel": {
         "name": "Nom",
         "systems": "Systèmes",
-        "up": "Haut",
-        "down": "Bas",
+        "up": "Up",
+        "down": "Down",
         "paused": "En Pause",
         "pending": "En attente",
         "status": "Statut",
@@ -1023,12 +1024,23 @@
         "bcharge": "Charge de la batterie",
         "timeleft": "Temps restant"
     },
-    "hoarder": {
-        "bookmarks": "Bookmarks",
-        "favorites": "Favorites",
-        "archived": "Archived",
+    "karakeep": {
+        "bookmarks": "Marque-pages",
+        "favorites": "Favoris",
+        "archived": "Archivé",
         "highlights": "Highlights",
-        "lists": "Lists",
+        "lists": "Listes",
         "tags": "Étiquettes"
+    },
+    "slskd": {
+        "slskStatus": "Réseau",
+        "connected": "Connecté",
+        "disconnected": "Déconnecté",
+        "updateStatus": "Mise à jour",
+        "update_yes": "Disponible",
+        "update_no": "À jour",
+        "downloads": "Téléchargements",
+        "uploads": "Téléversements",
+        "sharedFiles": "Fichiers"
     }
 }

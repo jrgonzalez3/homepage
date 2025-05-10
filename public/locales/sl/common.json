@@ -885,7 +885,8 @@
     "gitea": {
         "notifications": "Obvestila",
         "issues": "Težave",
-        "pulls": "Zahteve za prenos"
+        "pulls": "Zahteve za prenos",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Scene",
@@ -1023,12 +1024,23 @@
         "bcharge": "Napolnjenost baterije",
         "timeleft": "Preostali čas"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Značke"
+    },
+    "slskd": {
+        "slskStatus": "Omrežje",
+        "connected": "Povezan",
+        "disconnected": "Prekinjeno",
+        "updateStatus": "Update",
+        "update_yes": "Na voljo",
+        "update_no": "Posodobljeno",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Datotek"
     }
 }

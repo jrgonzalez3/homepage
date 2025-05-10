@@ -885,7 +885,8 @@
     "gitea": {
         "notifications": "الإشعارات",
         "issues": "المُشكِلات",
-        "pulls": "طلبات السحب"
+        "pulls": "طلبات السحب",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "المشاهد",
@@ -1023,12 +1024,23 @@
         "bcharge": "شحن البطارية",
         "timeleft": "الوقت المتبقي"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "التصنيفات"
+    },
+    "slskd": {
+        "slskStatus": "الشبكة",
+        "connected": "متصل",
+        "disconnected": "غير متصل",
+        "updateStatus": "Update",
+        "update_yes": "متاح",
+        "update_no": "حتى الآن",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "ملفات"
     }
 }

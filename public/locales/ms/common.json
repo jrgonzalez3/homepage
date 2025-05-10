@@ -885,7 +885,8 @@
     "gitea": {
         "notifications": "Notifications",
         "issues": "Issues",
-        "pulls": "Pull Requests"
+        "pulls": "Pull Requests",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Adegan",
@@ -1023,12 +1024,23 @@
         "bcharge": "Bateri dicas",
         "timeleft": "Masa Tinggal"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Tanda nama"
+    },
+    "slskd": {
+        "slskStatus": "Rangkaian",
+        "connected": "Connected",
+        "disconnected": "Sambungan Terputus",
+        "updateStatus": "Update",
+        "update_yes": "Sudah Ada",
+        "update_no": "Terkemaskini",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Files"
     }
 }

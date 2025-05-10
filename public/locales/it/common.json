@@ -149,8 +149,8 @@
         "received": "Ricevuti",
         "sent": "Inviati",
         "externalIPAddress": "IP Esterno",
-        "externalIPv6Address": "Ext. IPv6",
-        "externalIPv6Prefix": "Ext. IPv6-Prefix"
+        "externalIPv6Address": "IPv6 Esterno",
+        "externalIPv6Prefix": "Prefisso IPv6 Esterno"
     },
     "caddy": {
         "upstreams": "Upstream",
@@ -178,7 +178,7 @@
         "connectedAp": "AP Connessi",
         "activeUser": "Dispositivi attivi",
         "alerts": "Allarmi",
-        "connectedGateways": "Connected gateways",
+        "connectedGateways": "Gateway connessi",
         "connectedSwitches": "Switch connessi"
     },
     "nzbget": {
@@ -338,7 +338,7 @@
     "technitium": {
         "totalQueries": "Richieste",
         "totalNoError": "Successo",
-        "totalServerFailure": "Failures",
+        "totalServerFailure": "Fallimenti",
         "totalNxDomain": "NX Domains",
         "totalRefused": "Refused",
         "totalAuthoritative": "Authoritative",
@@ -885,7 +885,8 @@
     "gitea": {
         "notifications": "Notifiche",
         "issues": "Problemi",
-        "pulls": "Richieste di Pull"
+        "pulls": "Richieste di Pull",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Scene",
@@ -942,7 +943,7 @@
         "loading": "Caricamento",
         "open": "Open - US Market",
         "closed": "Closed - US Market",
-        "invalidConfiguration": "Invalid Configuration"
+        "invalidConfiguration": "Configurazione non valida"
     },
     "frigate": {
         "cameras": "Cameras",
@@ -958,7 +959,7 @@
         "unclassified": "Not classified",
         "information": "Informazioni",
         "warning": "Warning",
-        "average": "Average",
+        "average": "Media",
         "high": "High",
         "disaster": "Disaster"
     },
@@ -986,7 +987,7 @@
     },
     "beszel": {
         "name": "Nome",
-        "systems": "Systems",
+        "systems": "Sistemi",
         "up": "Up",
         "down": "Down",
         "paused": "In Pausa",
@@ -995,15 +996,15 @@
         "updated": "Aggiornato",
         "cpu": "CPU",
         "memory": "MEM",
-        "disk": "Disk",
+        "disk": "Disco",
         "network": "NET"
     },
     "argocd": {
-        "apps": "Apps",
-        "synced": "Synced",
-        "outOfSync": "Out Of Sync",
+        "apps": "Applicazioni",
+        "synced": "Sincronizzato",
+        "outOfSync": "Non Sincronizzato",
         "healthy": "Sano",
-        "degraded": "Degraded",
+        "degraded": "Degradato",
         "progressing": "Progressing",
         "missing": "Mancanti",
         "suspended": "Suspended"
@@ -1012,10 +1013,10 @@
         "loading": "Caricamento"
     },
     "gitlab": {
-        "groups": "Groups",
+        "groups": "Gruppi",
         "issues": "Problemi",
-        "merges": "Merge Requests",
-        "projects": "Projects"
+        "merges": "Richieste di merge",
+        "projects": "Progetti"
     },
     "apcups": {
         "status": "Stato",
@@ -1023,12 +1024,23 @@
         "bcharge": "Carica Batteria",
         "timeleft": "Tempo Rimanente"
     },
-    "hoarder": {
-        "bookmarks": "Bookmarks",
-        "favorites": "Favorites",
+    "karakeep": {
+        "bookmarks": "Segnalibri",
+        "favorites": "Preferiti",
         "archived": "Archived",
         "highlights": "Highlights",
-        "lists": "Lists",
+        "lists": "Liste",
         "tags": "Tag"
+    },
+    "slskd": {
+        "slskStatus": "Rete",
+        "connected": "Connesso",
+        "disconnected": "Disconnesso",
+        "updateStatus": "Update",
+        "update_yes": "Disponibili",
+        "update_no": "Aggiornato",
+        "downloads": "Download",
+        "uploads": "Uploads",
+        "sharedFiles": "File"
     }
 }

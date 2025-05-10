@@ -447,7 +447,7 @@
         "write": "Schreiben",
         "gpu": "GPU",
         "mem": "RAM",
-        "swap": "Swap"
+        "swap": "Auslagerung"
     },
     "quicklaunch": {
         "bookmark": "Lesezeichen",
@@ -665,8 +665,8 @@
         "storage": "Speicher"
     },
     "uptimekuma": {
-        "up": "Seiten verfügbar",
-        "down": "Seiten nicht verfügbar",
+        "up": "Up",
+        "down": "Down",
         "uptime": "Betriebszeit",
         "incident": "Vorfall",
         "m": "min"
@@ -744,8 +744,8 @@
         "targets_total": "Alle Ziele"
     },
     "gatus": {
-        "up": "Seiten verfügbar",
-        "down": "Seiten nicht verfügbar",
+        "up": "Up",
+        "down": "Down",
         "uptime": "Betriebszeit"
     },
     "ghostfolio": {
@@ -842,8 +842,8 @@
         "uptime": "Betriebszeit",
         "lastDown": "Letzter Ausfall",
         "downDuration": "Ausfalldauer",
-        "sitesUp": "Seiten verfügbar",
-        "sitesDown": "Seiten nicht verfügbar",
+        "sitesUp": "Up",
+        "sitesDown": "Down",
         "paused": "Pausiert",
         "notyetchecked": "Noch nicht geprüft",
         "up": "Online",
@@ -885,7 +885,8 @@
     "gitea": {
         "notifications": "Benachrichtigungen",
         "issues": "Probleme",
-        "pulls": "Pull-Requests"
+        "pulls": "Pull-Requests",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Szenen",
@@ -1023,12 +1024,23 @@
         "bcharge": "Akkuladung",
         "timeleft": "Verbleibende Zeit"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Schlagwörter"
+    },
+    "slskd": {
+        "slskStatus": "Netzwerk",
+        "connected": "Verbunden",
+        "disconnected": "Getrennt",
+        "updateStatus": "Update",
+        "update_yes": "Verfügbar",
+        "update_no": "Aktuell",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Dateien"
     }
 }
